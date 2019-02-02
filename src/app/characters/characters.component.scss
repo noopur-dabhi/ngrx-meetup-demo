@@ -1,0 +1,13 @@
+:host /deep/ {
+    h2 {
+        text-align: center;
+    }
+    .character-card {
+        max-width: 400px;
+        display: inline-block;
+        margin: 2rem;
+    }
+    .mat-card-image {
+        height: 300px;
+    }
+}

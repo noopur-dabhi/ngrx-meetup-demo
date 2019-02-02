@@ -1,6 +1,5 @@
 import { createSelector } from '@ngrx/store';
 
-export const getCharacterState = (appState) => {
-  console.log('*****appState', appState);
-  return appState;
-};
+export const getCharacterState = (appState) => appState;
+
+export const getCharacters = createSelector(getCharacterState, (state) => state.characters.entities);

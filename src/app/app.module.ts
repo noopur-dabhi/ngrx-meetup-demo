@@ -18,6 +18,11 @@ import { environment } from 'src/environments/environment';
 
 // angular cdk
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatListModule } from '@angular/material/list';
+import { MatDividerModule } from '@angular/material/divider';
 
 export const metaReducers: MetaReducer<any>[] = !environment.production
   ? [storeFreeze]
@@ -35,7 +40,12 @@ export const metaReducers: MetaReducer<any>[] = !environment.production
     StoreModule.forRoot(reducers, { metaReducers }),
     EffectsModule.forRoot(effects),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
-    MatGridListModule
+    MatGridListModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatButtonModule,
+    MatListModule,
+    MatDividerModule
   ],
   providers: [
     CharacterService

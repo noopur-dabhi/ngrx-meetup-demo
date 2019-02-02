@@ -1,10 +1,32 @@
 [
   {
-    "id": 1,
-    "name": "Dr Strange"
+    "character": "Spider-Man",
+    "name": "Peter Parker",
+    "description": "Spider-Man is a fictional superhero created by writer-editor Stan Lee and writer-artist Steve Ditko. He first appeared in the anthology comic book Amazing Fantasy #15 in the Silver Age of Comic Books."
   },
   {
-    "id": 2,
-    "name": "Spider-man"
+    "character": "Thor",
+    "name": "Thor Odinson",
+    "description": "Thor is exiled by his father Odin, the King of Asgard, to the Earth to live among mortals. When he lands on Earth, his trusted weapon Mjolnir is discovered and captured by S.H.I.E.L.D."
+  },
+  {
+    "character": "Iron Man",
+    "name": "Tony Stark",
+    "description": "Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics. The character was co-created by writer and editor Stan Lee, developed by scripter Larry Lieber."
+  },
+  {
+    "character": "Ant Man",
+    "name": "Scott Lang",
+    "description": "Ant-Man (Scott Lang) is a fictional superhero appearing in American comic books published by Marvel Comics. ... He was a member of the Avengers, a featured character in the comic-book series FF, and in 2015 became the title character in the series Ant-Man."
+  },
+  {
+    "character": "Black Panther",
+    "name": "T'Challa",
+    "description": "Black Panther is a fictional superhero appearing in American comic books published by Marvel Comics. The character was created by writer-editor Stan Lee and writer-artist Jack Kirby, first appearing in Fantastic Four #52 in the Silver Age of Comic Books."
+  },
+  {
+    "character": "Captain Marvel",
+    "name": "Carol Danvers",
+    "description": "Captain Marvel (Mar-Vell) is a fictional superhero appearing in American comic books published by Marvel Comics. The character was created by writer-editor Stan Lee and designed by artist Gene Colan and first appeared in Marvel Super-Heroes #12 (December 1967)."
   }
 ]
